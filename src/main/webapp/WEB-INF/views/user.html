@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8" >
+    <title>Wellcome</title>
+</head>
+<body>
+<h1 style="color: blue">wellcome</h1>
+<h3 th:text="${user.account}">acount</h3>
+<h3>Name: <h3 th:text="${user.name}"></h3></h3>
+<h3>Email: <h3 th:text="${user.email}"></h3></h3>
+<h3>Age: <h3 th:text="${user.age}"></h3></h3>
+</body>
+</html>
